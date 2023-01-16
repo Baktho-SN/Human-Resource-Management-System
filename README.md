@@ -21,5 +21,22 @@ This repository contains all the codes for Human Resource Management System that
 ```
 $ git clone https://github.com/Baktho-SN/Human-Resource-Management-System.git
 ```
+ To get SUM file :
+ ```
+$ go mod tidy
+```
+ To build exe file :
+ ```
+$ go build main.go
+```
+ To run main file :
+ ```
+$ go run main.go
+```
+Then use Postman to connect with mongodb using url:
+
+http://locolhost:3000/employee
+
+
 
 
